@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #4b745f;
+    color: white;
+    padding: 15px;
+    border-radius: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* İçerik ve görseli yatayda ayırır */
+    background: #ddbfa7;
+    color: rgb(5, 4, 4);
+    padding: 50px;
+    height: 400px; 
+   max-width: 60%;
+    margin: auto;
+}
+.hero-image {
+    height: 100%;      
+    width: auto;       
+    object-fit: contain; 
+    border-radius: 10%;
+    
+}
+.hero-image-container {
+    height: 100%;                  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    #hero {
+      padding: 20px;
+      height: 300px; 
+    }
+    
+    .hero-content {
+      max-width: 60%;
+    }
+    
+    .hero-image-container {
+      width: 35%; 
+    }
+  }
+
+.btn {
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+#content-about{
+    max-width: 70%;
+    margin: auto;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content-education{
+    max-width: 70%;
+    margin: auto;
+}
+#certificates{
+    max-width: 70%;
+    margin: auto;
+}
+  
+    
+
+.skill {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+}
+section {
+    padding: 40px 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+}
+#contact{
+    max-width: 70%;
+    margin: auto;
+}
+
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
