@@ -53,18 +53,29 @@ nav ul li a {
 }
 @media (max-width: 768px) {
     #hero {
-      padding: 20px;
-      height: 300px; 
+        flex-direction: column; /* İçeriği dikey hizalar */
+        text-align: center;
+        height: auto; /* Yüksekliği içeriğe göre ayarlar */
+        padding: 20px;
     }
     
     .hero-content {
-      max-width: 60%;
+        order: 1; /* İçeriği üstte tutar */
+        max-width: 100%;
     }
     
     .hero-image-container {
-      width: 35%; 
+        order: 2; /* Görseli içeriğin altına taşır */
+        width: 100%;
+        margin-top: 20px;
     }
-  }
+
+    .hero-image {
+        width: 80%; /* Görselin boyutunu ayarlar */
+        max-height: 300px;
+    }
+}
+
 
 .btn {
     background: white;
