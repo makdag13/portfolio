@@ -5,13 +5,33 @@ body {
     text-align: center;
 }
 
+
 header {
     background: #35473e;
     color: white;
     padding: 15px;
     border-radius: 1%;
 }
+#icons{
+    max-width: 100%;
+    background-color: #ddd;
+    border-radius: 50%;
+}
 
+.icon{
+    max-width: 40px;
+    border-radius: 13%;
+
+}
+#linkedin-button{
+    background-color: #35473e;
+
+}
+#gmail-button{
+    background-color: #35473e;
+}#github-button{
+    background-color: #35473e;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -52,6 +72,15 @@ nav ul li a {
     justify-content: center;
 }
 @media (max-width: 768px) {
+    .icon{
+        max-width: 45px;
+        border-radius: 13%;
+    
+    }
+    #icons{
+    background-color: #35473e;
+    }
+  
     #hero {
         flex-direction: column; /* İçeriği dikey hizalar */
         text-align: center;
