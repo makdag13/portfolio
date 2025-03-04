@@ -77,30 +77,37 @@ nav ul li a {
         border-radius: 13%;
     
     }
+    #linkedin-button ,#github-button, #gmail-button {
+        margin-top: 13px;
+        border-radius: 30%;
+    }
+    
     #icons{
-    background-color: #35473e;
+    background-color:#ddd;
+    border-radius: 20%;
+    height: 100px;
     }
   
     #hero {
-        flex-direction: column; /* İçeriği dikey hizalar */
+        flex-direction: column; 
         text-align: center;
-        height: auto; /* Yüksekliği içeriğe göre ayarlar */
+        height: auto; 
         padding: 20px;
     }
     
     .hero-content {
-        order: 1; /* İçeriği üstte tutar */
+        order: 1; 
         max-width: 100%;
     }
     
     .hero-image-container {
-        order: 2; /* Görseli içeriğin altına taşır */
+        order: 2; 
         width: 100%;
         margin-top: 20px;
     }
 
     .hero-image {
-        width: 80%; /* Görselin boyutunu ayarlar */
+        width: 80%; 
         max-height: 300px;
     }
 }
