@@ -60,7 +60,7 @@ nav ul li a {
     border-radius: 2%;
 }
 #hero-content{
-    margin-left: 20%;
+  margin: auto;
 }
 .hero-image {
     height: 100%;      
