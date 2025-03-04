@@ -167,6 +167,20 @@ section {
     display: inline-block;
     width: 200px;
 }
+#erasmus{
+    font-weight: 500;
+    margin: auto;
+}
+#era{
+    text-align: left;
+    margin-top: 50px;
+}
+#content-other-things{
+   margin: auto;
+  
+max-width: 70%;
+    
+}
 #contact{
     max-width: 70%;
     margin: auto;
