@@ -50,7 +50,7 @@ nav ul li a {
 #hero {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* İçerik ve görseli yatayda ayırır */
+    justify-content: space-between; 
     background: #ddbfa7;
     color: rgb(5, 4, 4);
     padding: 50px;
