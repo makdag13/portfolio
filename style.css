@@ -7,15 +7,16 @@ body {
 
 
 header {
-    background-color: #35473e;
+    background-color: rgb(41, 121, 110);
     color: white;
     padding: 15px;
     border-radius: 1%;
 }
 #icons{
     max-width: 100%;
-    background-color: #ddd;
+    background-color: rgba(233, 248, 235, 0.7);
     border-radius: 50%;
+    padding: 10px;
 }
 
 .icon{
